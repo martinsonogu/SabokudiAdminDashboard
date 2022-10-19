@@ -1,0 +1,353 @@
+.IPEscrowTodayTransaction{
+    margin-left:18px ;
+    margin-top: 22.1px;
+    
+}
+.IPEscrowWrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.IPEscrowTransactionLeft{
+    width: 804.4px;
+    height: 607.68px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(216, 216, 216, 0.25);
+    border-radius: 20px;
+    margin-right: 17px;
+}
+.IPEscrowTransactionLeftWrapper{
+    padding-top: 25.48px;
+    padding-left: 35px;
+    padding-right: 37.24px;
+}
+.IPETTopRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.IPETTopRowHeader{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+}
+.IPETTopFilter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+  
+  }
+  .IPETTopFilterTitle{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 127.52%;
+    color: #000000;
+    margin-right: 12.6px;
+  }
+  .IPETTopFilterinput{
+    width: 138px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 5.67628px;
+    margin-right: 7.2px;
+    outline: none;
+    padding-left: 50px;
+  }
+  .IPETTopFiltertEnterContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .IPETTopFilterEnterIcon{
+    margin-bottom: -6px;
+  }
+  .IPETTopFilterEnterText{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 6.81154px;
+    color: #5B5B5B;
+  }
+.IPEscrowUsersTable{
+    margin-top: 20px;
+}
+.EscrowUsersTableWrapper{
+    padding-right: 10px;
+}
+.IpayTransactionHeader{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin-left: 60px;
+    justify-content: center;
+}
+.IpayTransHeader1{
+font-family: 'Poppins';
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+letter-spacing: -0.05em;
+color: #000000;
+}
+.green {
+    color: #699635;
+}
+.IpayTransactionEntries{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding-left: 20px;
+    justify-content: center;
+}
+.ITEntriesName{
+    width: 203px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.05em;
+    color: #000000;
+}
+.ITEntriesCredit{
+    width: 203px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.05em;
+    color: #699635;
+}
+.ITEntriesDebit{
+    width: 203px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.05em;
+    color: #D33B23;
+}
+.boldSpan{
+    font-weight: 600;
+}
+.red {
+    color: #D33B23
+}
+.totalSale{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.totalSaleHeader{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 127.52%;
+    color: #000000;
+    margin-right: 43px;
+}
+.totalSaleDate{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+    margin-top: -5px;
+}
+.totalSaleAmount{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 127.52%;
+    color: #000000;
+
+}
+.EscrowTransactionRight{
+    height: 607.68px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+.EscrowTransactionRightTop{
+    width: 334.92px;
+    height: 274.68px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(216, 216, 216, 0.25);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.EscrowTransactionRightTopWrapper{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.ETRTopRow{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ETRTopRowHeader{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 127.52%;
+    color: #000000;
+}
+.ETRTopFilter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+  
+  }
+  
+  .ETRTopFilterinput{
+    width: 88.28px;
+    height: 25.59px;
+    border: 1px solid #000000;
+    border-radius: 5.67628px;
+    margin-right: 7.2px;
+    outline: none;
+    padding-left: 30px;
+  }
+  .ETRTopTiltertEnterContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .ETRTopFilterEnterIcon{
+    margin-bottom: -6px;
+  }
+  .ETRTopFilterEnterText{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 6.81154px;
+    color: #5B5B5B;
+  }
+
+  .IpayETChart{
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.EscrowTransactionRightBottom{
+    width: 334.92px;
+    height: 274.68px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(216, 216, 216, 0.25);
+    border-radius: 20px;
+}
+.EscrowTransactionRightBottomWrapper{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.EscrowTransactionRightBottomTopRow{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.ETRBottomHeader{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 12px;
+    color: #000000;
+    margin-right: 30px;
+}
+.ETRBottomFilter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+  
+  }
+  
+  .ETRBFilterinput{
+    width: 88.28px;
+    height: 25.59px;
+    border: 1px solid #000000;
+    border-radius: 5.67628px;
+    margin-right: 7.2px;
+    outline: none;
+    padding-left: 30px;
+  }
+  .ETRBTiltertEnterContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .ETRBFilterEnterIcon{
+    margin-bottom: -6px;
+  }
+  .ETRBFilterEnterText{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 6.81154px;
+    color: #5B5B5B;
+  }
+.ETRBMonth{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+    margin-top: 20px;
+}
+.ETRBAmount{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+}
+.ETRBBottomContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+.ETRBBottomLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 70px;
+}
+.ETRBBottomLeftText{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+.ETRBBottomLeftAmount{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+}
+.ETRBBottomRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ETRBBottomLeftText{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+.ETRBBottomLeftDiffAmount{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #DB0D27;
+}

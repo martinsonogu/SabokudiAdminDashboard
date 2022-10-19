@@ -1,0 +1,106 @@
+.EscrowTodayTransaction{
+    margin-left:18px ;
+    margin-top: 22.1px;
+    
+}
+.EscrowWrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.EscrowTransactionLeft{
+    width: 1000px;
+    height: 607.68px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(216, 216, 216, 0.25);
+    border-radius: 20px;
+    margin-right: 17px;
+}
+.EscrowTransactionLeftWrapper{
+    padding-top: 25.48px;
+    padding-left: 35px;
+    padding-right: 37.24px;
+}
+.PETTopRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.ETTopRowHeader{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+   
+}
+.ETTopFilter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+  
+  }
+  .ETTopFilterTitle{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 127.52%;
+    color: #000000;
+    margin-right: 12.6px;
+  }
+  .ETTopFilterinput{
+    width: 138px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 5.67628px;
+    margin-right: 7.2px;
+    outline: none;
+    padding-left: 50px;
+  }
+  .ETTopFiltertEnterContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .ETTopFilterEnterIcon{
+    margin-bottom: -6px;
+  }
+  .ETTopFilterEnterText{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 6.81154px;
+    color: #5B5B5B;
+  }
+.EscrowUsersTable{
+    margin-top: 20px;
+}
+.EscrowUsersTableWrapper{
+    padding-right: 10px;
+}
+.profitsWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.firstProfit{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.firstProfitHeader{
+    margin-bottom: 25px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 127.52%;
+    color: #000000;
+}
+.chart{
+    margin-top: -120px;
+    margin-left: -140px;
+
+}

@@ -1,0 +1,72 @@
+.navbar {
+    width: 97.5%;
+    height: 98px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .navbarWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbarFirstContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .NavbarFirstContainerInput{
+    height: 59px;
+    width: 361px;
+    color:  #5B5B5B;
+    border: 1px solid #5B5B5B;
+    border-radius: 10px;
+    padding-left: 30px;
+    outline: none;
+    margin-left: 138px;
+  }
+  .navbarFirstContainerInnerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 200px;
+  }
+  .NotificationIcon{
+    margin-right: 28px;
+  }
+  .SettingsIcon{
+    margin-right: 50px;
+  }
+  .navbarSecondContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .navbarSecondContainerA{
+    margin-left: 11px;
+  }
+  .navbarSecondContainerAName{
+    font-family: 'Poppins'; 
+font-weight: 400;
+font-size: 14px;
+line-height: 97.52%;
+color: #5B5B5B;
+
+  }
+.navbarSecondContainerARole{
+  font-family: 'Poppins'; 
+font-weight: 400;
+font-size: 14px;
+line-height: 97.52%;
+color: #5B5B5B;
+
+}
+  .profilepic{
+    margin-left: 25px;
+    padding-right: 60px;
+    width: 70px;
+    height: 66.73px;
+  }

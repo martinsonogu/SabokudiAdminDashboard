@@ -1,0 +1,42 @@
+.widgetLg {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .widgetLgTable {
+    width: 100%;
+    border-spacing: 20px;
+  }
+  .widgetLgTr {
+    margin-top: 5px;
+    border-bottom: 3px solid #E4E4E4;
+  }
+  .widgetLgTh{
+  text-align: center;
+  font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 127.52%;
+    color: #000000;
+
+  }
+  .widgetLgUser{
+    display: flex;
+    align-items: center;
+  }
+  .widgetLgTrImg {
+    width: 40px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  .widgetLgName {
+    font-family: 'Poppins';
+font-weight: 400;
+font-size: 12px;
+line-height: 97.52%;
+text-align: center;
+  }
+ 
+  

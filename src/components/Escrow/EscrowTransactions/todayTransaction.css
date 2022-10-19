@@ -1,0 +1,317 @@
+.EscrowTodayTransaction{
+    margin-left:18px ;
+    margin-top: 22.1px;
+    
+}
+.EscrowWrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.EscrowTransactionLeft{
+    width: 804.4px;
+    height: 607.68px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(216, 216, 216, 0.25);
+    border-radius: 20px;
+    margin-right: 17px;
+}
+.EscrowTransactionLeftWrapper{
+    margin-top: -40px;
+    padding-top: 15.48px;
+    padding-left: 35px;
+    padding-right: 250px !important;
+}
+.ETTopRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.ETTopRowHeader{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+}
+.ETTopFilter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+  
+  }
+  .ETTopFilterTitle{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 127.52%;
+    color: #000000;
+    margin-right: 12.6px;
+  }
+  .ETTopFilterinput{
+    width: 138px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 5.67628px;
+    margin-right: 7.2px;
+    outline: none;
+    padding-left: 50px;
+  }
+  .ETTopFiltertEnterContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .ETTopFilterEnterIcon{
+    margin-bottom: -6px;
+  }
+  .ETTopFilterEnterText{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 6.81154px;
+    color: #5B5B5B;
+  }
+  .TTChart{
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.ETTopTabs{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+}
+.ETTopTab1{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 127.52%;
+    color: #FFFFFF;
+    padding: 7px 11px;
+    background: #5B5B5B;
+    border-radius: 40px;
+    margin-right: 23px;
+}
+.ETTopTab2{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 127.52%;
+    color: #000000;
+    border-radius: 40px;
+    border: 1px solid #5B5B5B;
+    padding: 7px 11px 7px 11px;
+    border-radius: 40px;
+    margin-right: 23px;
+}
+.EscrowUsersTable{
+    margin-top: 20px;
+}
+.EscrowUsersTableWrapper{
+    padding-right: 150px;
+}
+.EscrowItem1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 2px;
+}
+.EscrowItemName{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 127.52%;
+    color: #000000;
+}
+.green {
+    color: #699635;
+}
+.EscrowTransactionRight{
+    height: 607.68px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+.EscrowTransactionRightTop{
+    width: 334.92px;
+    height: 274.68px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(216, 216, 216, 0.25);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.EscrowTransactionRightTopWrapper{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.ETRTopRow{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ETRTopRowHeader{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 127.52%;
+    color: #000000;
+}
+.ETRTopFilter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+  
+  }
+  
+  .ETRTopFilterinput{
+    width: 88.28px;
+    height: 25.59px;
+    border: 1px solid #000000;
+    border-radius: 5.67628px;
+    margin-right: 7.2px;
+    outline: none;
+    padding-left: 30px;
+  }
+  .ETRTopTiltertEnterContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .ETRTopFilterEnterIcon{
+    margin-bottom: -6px;
+  }
+  .ETRTopFilterEnterText{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 6.81154px;
+    color: #5B5B5B;
+  }
+
+.EscrowTransactionRightBottom{
+    width: 334.92px;
+    height: 274.68px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(216, 216, 216, 0.25);
+    border-radius: 20px;
+}
+.EscrowTransactionRightBottomWrapper{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.EscrowTransactionRightBottomTopRow{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.ETRBottomHeader{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 12px;
+    color: #000000;
+    margin-right: 30px;
+}
+.ETRBottomFilter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+  
+  }
+  
+  .ETRBFilterinput{
+    width: 88.28px;
+    height: 25.59px;
+    border: 1px solid #000000;
+    border-radius: 5.67628px;
+    margin-right: 7.2px;
+    outline: none;
+    padding-left: 30px;
+  }
+  .ETRBTiltertEnterContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .ETRBFilterEnterIcon{
+    margin-bottom: -6px;
+  }
+  .ETRBFilterEnterText{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 6.81154px;
+    color: #5B5B5B;
+  }
+.ETRBMonth{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+    margin-top: 20px;
+}
+.ETRBAmount{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+}
+.ETRBBottomContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+.ETRBBottomLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 70px;
+}
+.ETRBBottomLeftText{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+.ETRBBottomLeftAmount{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+}
+.ETRBBottomRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ETRBBottomLeftText{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+.ETRBBottomLeftDiffAmount{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #DB0D27;
+}

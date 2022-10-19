@@ -1,0 +1,83 @@
+.orderInbox{
+    background-color: #f4f4f9;
+}
+.orderInboxWrapper{
+    padding-top: 28px;
+    padding-left: 28px;
+}
+.orederInboxHeader{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 127.52%;
+    color: #000000;
+    margin-bottom: 12px;
+}
+.oiMainContent{
+    overflow: scroll;
+}
+.oiItem1{
+    overflow: scroll;
+    padding-top: 31px;
+}
+.oiItem1Wrapper{
+padding-bottom: 19px;
+display: flex;
+flex-direction: row;
+}
+.oiItemImage{
+    height: 50px;
+    width: 53px;
+    margin-right: 45px;
+}
+.oiItemTopRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.oiItemTopRowName{
+    font-family: 'Poppins';
+font-weight: 400;
+font-size: 14px;
+color: #000000;
+margin-right: 160px;
+}
+.oiItemTopRowDuration{
+    font-family: 'Poppins';
+font-weight: 400;
+font-size: 14px;
+color: #000000;
+
+}
+.oiItemSecondRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -20px;
+}
+.oiItemSecondRowCategory{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    margin-right: 30px;
+}
+.oiItemSecondRowAmount{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+}
+.oiItemDetails{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 127.52%;
+    color: #000000;
+    width: 330px;
+    text-align: justify;
+    margin-top: -10px;
+}
