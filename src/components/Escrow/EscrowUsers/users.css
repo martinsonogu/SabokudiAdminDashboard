@@ -1,0 +1,23 @@
+.EscrowUsersTable{
+    margin-top: 20px;
+}
+.EscrowUsersTableWrapper{
+    padding-right: 150px;
+}
+.EscrowItem1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 2px;
+}
+.EscrowItemName{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 127.52%;
+    color: #000000;
+}
+.green {
+    color: #699635;
+}

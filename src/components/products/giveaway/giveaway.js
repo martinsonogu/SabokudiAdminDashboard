@@ -1,9 +1,15 @@
-import React from 'react'
+import React,{useState} from 'react'
 import "./giveaway.css"
 import {EnterSVG, TrendingUpBigSVG, GiveawaySVG } from '../../../assets/svg/icons'
+import Overallusers from '../giveaway/giveawayOverallUsers/overallusers'
+import Applications from '../giveaway/giveawayApplications/applications' 
 
 
-const giveaway = () => {
+const Giveaway = () => {
+  const [isActive, setIsActive] = useState('OverallUsers')
+  const [isGiveawayTypeActive, SetIsGiveawayTypeActive] = useState('General')
+  //Just as you have created state for the isActive, you would need to repeat a similar process for 
+  // The Kind of Giveaway i.e either General, follower, customer or contact
   return (
     <div className='giveaway'>
         <div className='giveawayWrapper'>
@@ -21,52 +27,12 @@ const giveaway = () => {
                         </div>
                     </div>
                     <div className='secondRow'>
-                        <p className='option1'>Overall Users</p>
-                        <p className='option2'>Applications</p>
+                        <button className='option1' onClick={() => setIsActive("OverallUsers")}>Overall Users</button>
+                        <button className='option2' onClick={() => setIsActive("Applications")}>Applications</button>
                     </div>
-            <table className="table">
-              <tbody>
-                <tr className="TableBodyTr">
-                  <th className="tableheader">Name</th>
-                  <th className="tableheader">Amount</th>
-                  <th className="tableheader">Section</th>
-                  <th className="tableheader">date</th>
-                </tr> 
-                
-                <tr className="tableBodyTr">
-                  <td className="tableText">Ajani Ayemo <span className='tableTextDetails'>see details</span></td>
-                  <td className="tableText">#5,000</td>
-                  <td className="tableText">Giveaway</td>
-                  <td className="tableText">12/9/2022</td>
-                </tr> 
-                <tr className="tableBodyTr">
-                  <td className="tableText">Ajani Ayemo <span className='tableTextDetails'>see details</span></td>
-                  <td className="tableText">#5,000</td>
-                  <td className="tableText">Giveaway</td>
-                  <td className="tableText">12/9/2022</td>
-                </tr> 
-                <tr className="tableBodyTr">
-                  <td className="tableText">Ajani Ayemo <span className='tableTextDetails'>see details</span></td>
-                  <td className="tableText">#5,000</td>
-                  <td className="tableText">Giveaway</td>
-                  <td className="tableText">12/9/2022</td>
-                </tr> 
-                <tr className="tableBodyTr">
-                  <td className="tableText">Ajani Ayemo <span className='tableTextDetails'>see details</span></td>
-                  <td className="tableText">#5,000</td>
-                  <td className="tableText">Giveaway</td>
-                  <td className="tableText">12/9/2022</td>
-                </tr> 
-                <tr className="tableBodyTr">
-                  <td className="tableText">Ajani Ayemo <span className='tableTextDetails'>see details</span></td>
-                  <td className="tableText">#5,000</td>
-                  <td className="tableText">Giveaway</td>
-                  <td className="tableText">12/9/2022</td>
-                </tr> 
-               </tbody>
-            </table>
-                    
-
+            <div className='changingContent'></div>
+                {isActive === "OverallUsers" && <Overallusers/>}
+                {isActive === "Applications" && <Applications/>}
                 </div>
 
             </div>
@@ -100,10 +66,10 @@ const giveaway = () => {
               
               </div>
               <div className='giveawaytype'>
-                <p className='header general'>General</p>
-                <p className='header'>Follower</p>
-                <p className='header'>Contact</p>
-                <p className='header'>Customer</p>
+              <button className='header general' onClick={() => SetIsGiveawayTypeActive("General")}>General</button>
+              <button className='header' onClick={() => SetIsGiveawayTypeActive("Follower")}>Follower</button>
+              <button className='header' onClick={() => SetIsGiveawayTypeActive("Contact")}>Contact</button>
+              <button className='header' onClick={() => SetIsGiveawayTypeActive("Customer")}>Customer</button>
               </div>
               <div className='paymentRightBottom'>
                 <p className='bottomTitle'>Total amount  of payment  for <span className='month'>APR</span> </p>
@@ -128,4 +94,4 @@ const giveaway = () => {
   )
 }
 
-export default giveaway
+export default Giveaway

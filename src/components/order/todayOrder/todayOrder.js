@@ -1,9 +1,11 @@
-import React from 'react'
+import React,{useState} from 'react'
 import "./todayOrder.css"
 import {EnterSVG, OrdergraphSVG} from '../../../assets/svg/icons'
 import Kitchen from "../../../assets/images/kitchen.png"
-import Hair from "../../../assets/images/hair.png"
-const todayOrder = () => {
+import DeliveryStatus from './deliveryStatusTab/deliveryStatus'
+import OverallStatus from './overallStatusTab/overallStatus'
+const TodayOrder = () => {
+    const [isActiveTab, setIsActiveTab] = useState("DeliveryStatus")
   return (
     <div className='giveaway'>
         <div className='giveawayWrapper'>
@@ -20,45 +22,13 @@ const todayOrder = () => {
                     <div className='topRow'>
                         <p className='title'>Today Order</p>
                         <div className='options'>
-                            <p className='option1'>Overall Order</p>
-                            <p className='option2'>Order status</p>
+                            <button className='option1' onClick={() => setIsActiveTab("DeliveryStatus")}>Overall Order</button>
+                            <button className='option2' onClick={() => setIsActiveTab("OverallStatus")}>Order status</button>
                         </div>
                     </div>
                     <div className='mainContent'>
-                        <div className='mainContent1'>
-                            <p className='names'><span className='name'>Kemi Olushina </span>ordered from <span className='name'>Fola Johnson</span></p>
-                            <img src={Kitchen} alt='' className='image'/>
-                            <p className='productCategory'>Woman Hair</p>
-                            <p className='amount'>#10,000</p>
-                            <p className='status'>Delivery in progress</p>
-                            
-                        </div>
-                        <div className='horizontalLine'></div>
-                        <div className='mainContent1'>
-                            <p className='names'><span className='name'>Kemi Olushina </span>ordered from <span className='name'>Fola Johnson</span></p>
-                            <img src={Hair} alt='' className='image'/>
-                            <p className='productCategory'>Woman Hair</p>
-                            <p className='amount'>#10,000</p>
-                            <p className='status green'>Delivered</p>
-                        </div>
-                        <div className='horizontalLine'></div>
-                        <div className='mainContent1'>
-                            <p className='names'><span className='name'>Kemi Olushina </span>ordered from <span className='name'>Fola Johnson</span></p>
-                            <img src={Hair} alt='' className='image'/>
-                            <p className='productCategory'>Woman Hair</p>
-                            <p className='amount'>#10,000</p>
-                            <p className='status red'>Not Delivered</p>
-                        </div>
-                        <div className='horizontalLine'></div>
-                        <div className='mainContent1'>
-                            <p className='names'><span className='name'>Kemi Olushina </span>ordered from <span className='name'>Fola Johnson</span></p>
-                            <img src={Kitchen} alt='' className='image'/>
-                            <p className='productCategory'>Woman Hair</p>
-                            <p className='amount'>#10,000</p>
-                            <p className='status'>Delivered  green</p>
-                            
-                        </div>
-                        
+                        {isActiveTab === "DeliveryStatus" && <DeliveryStatus/>}
+                        {isActiveTab === "OverallStatus" && <OverallStatus/>  }                    
                     </div>
                     
             
@@ -127,4 +97,4 @@ const todayOrder = () => {
   )
 }
 
-export default todayOrder
+export default TodayOrder

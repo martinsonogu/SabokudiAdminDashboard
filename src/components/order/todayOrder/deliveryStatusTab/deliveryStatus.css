@@ -1,0 +1,52 @@
+.names{
+    width: 160px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin-right: 36px;
+}
+.name{
+    color:#7788C3;
+}
+.image{
+    height: 96px;
+    width: 107px;
+    border-radius: 16.9369px;
+    margin-right: 17px;
+}
+.productCategory{
+    height: 56px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.05em;
+    color: #333333;
+    margin-right: 32px;
+}
+.amount{
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.05em;
+    color: #699635;
+    margin-right: 32px;
+
+}
+.status{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: -0.05em;
+    color: #F0B90B;
+}
+.green{
+    color: #699635;
+}
+.red{
+    color: #DB0D27;
+}
+.horizontalLine{
+    border: 1px solid #E4E4E4;
+    margin: 12px 0px ;
+}

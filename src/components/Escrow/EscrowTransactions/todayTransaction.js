@@ -1,9 +1,13 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './todayTransaction.css'
 import { EnterSVG} from '../../../assets/svg/icons'
 import Chart from '../profits/Chart'
+import Due from '../Due/Due'
+import Appeal from '../Appeal/Appeal'
+import Users from '../EscrowUsers/users'
 
 const TodayTransaction = () => {
+  const [isActiveTab, setIsActiveTab] = useState("Users")
   return (
     <div className='EscrowTodayTransaction'>
       <div className='EscrowWrapper'>
@@ -21,89 +25,16 @@ const TodayTransaction = () => {
                       </div>
               </div>
             </div>
-          <div className='EscrowTransactionLeftWrapper'>
-            
+            <div className='EscrowTransactionLeftWrapper'>
             <div className='ETTopTabs'>
-              <p className='ETTopTab1'>Escrow Users</p>
-              <p className='ETTopTab2'>Due Users</p>
-              <p className='ETTopTab2'>Appeal Users</p>
+              <button className='ETTopTab2' onClick={() => setIsActiveTab("Users")}>Escrow Users</button>
+              <button className='ETTopTab2' onClick={() => setIsActiveTab("Due")}>Due Users</button>
+              <button className='ETTopTab2' onClick={() => setIsActiveTab("Appeal")}>Appeal Users</button>
             </div>
-            <div className='EscrowUsersTable'>
-              <div className='EscrowUsersTableWrapper'>
-                <div className='EscrowItem1'>
-                  <p className='EscrowItemName'>Shobowale Michael</p>
-                  <p className='EscrowItemName'>Shobowale@gmail.com</p>
-                  <p className='EscrowItemName'>08067676767</p>
-                  <p className='EscrowItemName'>NIN</p>
-                  <p className='EscrowItemName green'>Registered</p>
-
-                </div>
-                <div className='EscrowItem1'>
-                  <p className='EscrowItemName'>Shobowale Michael</p>
-                  <p className='EscrowItemName'>Shobowale@gmail.com</p>
-                  <p className='EscrowItemName'>08067676767</p>
-                  <p className='EscrowItemName'>NIN</p>
-                  <p className='EscrowItemName green'>Registered</p>
-
-                </div>
-                <div className='EscrowItem1'>
-                  <p className='EscrowItemName'>Shobowale Michael</p>
-                  <p className='EscrowItemName'>Shobowale@gmail.com</p>
-                  <p className='EscrowItemName'>08067676767</p>
-                  <p className='EscrowItemName'>NIN</p>
-                  <p className='EscrowItemName green'>Registered</p>
-
-                </div>
-                <div className='EscrowItem1'>
-                  <p className='EscrowItemName'>Shobowale Michael</p>
-                  <p className='EscrowItemName'>Shobowale@gmail.com</p>
-                  <p className='EscrowItemName'>08067676767</p>
-                  <p className='EscrowItemName'>NIN</p>
-                  <p className='EscrowItemName green'>Registered</p>
-
-                </div>
-                <div className='EscrowItem1'>
-                  <p className='EscrowItemName'>Shobowale Michael</p>
-                  <p className='EscrowItemName'>Shobowale@gmail.com</p>
-                  <p className='EscrowItemName'>08067676767</p>
-                  <p className='EscrowItemName'>NIN</p>
-                  <p className='EscrowItemName green'>Registered</p>
-
-                </div>
-                <div className='EscrowItem1'>
-                  <p className='EscrowItemName'>Shobowale Michael</p>
-                  <p className='EscrowItemName'>Shobowale@gmail.com</p>
-                  <p className='EscrowItemName'>08067676767</p>
-                  <p className='EscrowItemName'>NIN</p>
-                  <p className='EscrowItemName green'>Registered</p>
-
-                </div>
-                <div className='EscrowItem1'>
-                  <p className='EscrowItemName'>Shobowale Michael</p>
-                  <p className='EscrowItemName'>Shobowale@gmail.com</p>
-                  <p className='EscrowItemName'>08067676767</p>
-                  <p className='EscrowItemName'>NIN</p>
-                  <p className='EscrowItemName green'>Registered</p>
-
-                </div>
-                <div className='EscrowItem1'>
-                  <p className='EscrowItemName'>Shobowale Michael</p>
-                  <p className='EscrowItemName'>Shobowale@gmail.com</p>
-                  <p className='EscrowItemName'>08067676767</p>
-                  <p className='EscrowItemName'>NIN</p>
-                  <p className='EscrowItemName green'>Registered</p>
-
-                </div>
-                <div className='EscrowItem1'>
-                  <p className='EscrowItemName'>Shobowale Michael</p>
-                  <p className='EscrowItemName'>Shobowale@gmail.com</p>
-                  <p className='EscrowItemName'>08067676767</p>
-                  <p className='EscrowItemName'>NIN</p>
-                  <p className='EscrowItemName green'>Registered</p>
-
-                </div>
-                
-              </div>
+            <div className='ETTopTransactionContent'>
+              {isActiveTab === "Users" && <Users/>}
+              {isActiveTab === "Appeal" && <Appeal/>}
+              {isActiveTab === "Due" && <Due/>}
             </div>
           </div>
         </div>

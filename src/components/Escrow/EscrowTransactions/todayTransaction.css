@@ -17,11 +17,43 @@
     margin-right: 17px;
 }
 .EscrowTransactionLeftWrapper{
-    margin-top: -40px;
-    padding-top: 15.48px;
-    padding-left: 35px;
-    padding-right: 250px !important;
+  margin-top: -40px;
+  padding-top: 15.48px;
+  padding-left: 35px;
+  padding-right: 250px !important;
 }
+.ETTopTabs{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 25px;
+}
+.ETTopTab1{
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 127.52%;
+  color: #FFFFFF;
+  padding: 7px 11px;
+  background: #5B5B5B;
+  border-radius: 40px;
+  margin-right: 23px;
+  border: none;
+}
+.ETTopTab2{
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 127.52%;
+  color: #000000;
+  border-radius: 40px;
+  border: 1px solid #5B5B5B;
+  padding: 7px 11px 7px 11px;
+  border-radius: 40px;
+  margin-right: 23px;
+}
+
 .ETTopRow{
     display: flex;
     flex-direction: row;
@@ -82,58 +114,11 @@
     margin-left: auto;
     margin-right: auto;
   }
-.ETTopTabs{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 25px;
-}
-.ETTopTab1{
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 127.52%;
-    color: #FFFFFF;
-    padding: 7px 11px;
-    background: #5B5B5B;
-    border-radius: 40px;
-    margin-right: 23px;
-}
-.ETTopTab2{
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 127.52%;
-    color: #000000;
-    border-radius: 40px;
-    border: 1px solid #5B5B5B;
-    padding: 7px 11px 7px 11px;
-    border-radius: 40px;
-    margin-right: 23px;
-}
-.EscrowUsersTable{
-    margin-top: 20px;
-}
-.EscrowUsersTableWrapper{
-    padding-right: 150px;
-}
-.EscrowItem1{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    margin-bottom: 2px;
-}
-.EscrowItemName{
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 127.52%;
-    color: #000000;
-}
-.green {
+  .green {
     color: #699635;
+}
+.purple{
+  color: #7575C2;
 }
 .EscrowTransactionRight{
     height: 607.68px;

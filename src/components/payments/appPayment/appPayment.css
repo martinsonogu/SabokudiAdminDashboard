@@ -1,5 +1,10 @@
 
-  
+.PTDLHorizontalLine{
+  border: 1px solid #E4E4E4;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
 .yellow{
   color: #E4A951;
 }
@@ -13,35 +18,11 @@
 .paymentTypeActive{
   color: #856604;
 }
-.transactionPaymentWrapper{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.transactionPaymentName{
-  font-family: 'Poppins';
-  font-weight: 400;
-  font-size: 14px;
-  letter-spacing: -0.05em;
-  color: #000000;
-  margin-left: 50px;
-}
-.debitWrapper{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+
 .red{
   color: #D33B23;
 }
-.debitWrapperText{
-  font-family: 'Poppins';
-  font-weight: 400;
-  font-size: 14px;
-  letter-spacing: -0.05em;
-}
-.EntryContainer{
-  width: auto;
-  overflow: scroll;
-}
+
 .paymentEntriesWrapper{
   display: grid;
   grid-template-columns: 1fr 1fr;

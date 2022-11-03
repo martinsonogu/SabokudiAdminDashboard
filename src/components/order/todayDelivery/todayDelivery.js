@@ -1,7 +1,6 @@
 import React from 'react'
 import "./todayDelivery.css"
 import {EnterSVG, TrendingUpSVG, UploadsSmallSVG} from '../../../assets/svg/icons'
-import Kitchen from "../../../assets/images/kitchen.png"
 import Hair from "../../../assets/images/hair.png"
 
 const todayDelivery = () => {
